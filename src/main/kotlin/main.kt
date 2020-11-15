@@ -3,8 +3,7 @@ fun main(args: Array<String>) {
     val name = readLine()
     when (name) {
         "Shaqqour" -> println("You are so welcome $name. We are glad to have you with us!")
-        "Ali" -> println("Hello $name!")
-        "Hiba" -> println("Hello $name!")
+        "Ali", "Hiba" -> println("Hello $name!")
         else -> println("You are not welcome here!")
     }
 }
